@@ -34,7 +34,7 @@
 (defun default-doc (&key body style)
   (with-html-output-to-string (out nil :prologue T)
     (:html
-      (:head (:title "PASTELIST")
+      (:head (:title "PASTELISP")
              (:style (str style)))
       (:body (:div (:a :href "/" "new"))
              (:div (:a :href "/recent" "recent"))
