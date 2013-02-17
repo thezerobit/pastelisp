@@ -13,6 +13,8 @@ To create database:
     sudo -u postgres createuser -D -A -P pastelispuser # pastelisppass
     sudo -u postgres createdb -O pastelispuser pastelisp
 
+Create tables in REPL: (pastelisp:create-tables)
+
 To run local test server: (pastelisp:start-server)
 
 Uses hunchentoot and Restas under the hood, so see those projects
